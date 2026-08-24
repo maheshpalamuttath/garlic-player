@@ -1,0 +1,16 @@
+services:
+  garlic-hub:
+    image: sagiadinos/garlic-hub:latest
+    container_name: garlic-hub-container
+    restart: unless-stopped
+
+    ports:
+      - "8090:80"
+
+    volumes:
+      - garlic-hub-public-var:/var/www/public/var
+      - garlic-hub-var:/var/www/var
+
+volumes:
+  garlic-hub-public-var:
+  garlic-hub-var:

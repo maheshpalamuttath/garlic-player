@@ -35,7 +35,7 @@ sudo apt install -y libfuse2t64
 ## 3. Download Garlic-Player
 
 ```bash
-[https://garlic-signage.com/downloads/](https://garlic-signage.com/downloads/)
+[Download Garlic Player](https://garlic-signage.com/downloads/)
 ```
 Garlic-Player provides players for different platforms. This guide uses the **Linux x64 AppImage**.
 
